@@ -1,5 +1,0 @@
-## Summary
-
-## Screenshots
-
-## Related Issue
