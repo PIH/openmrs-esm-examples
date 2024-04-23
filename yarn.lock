@@ -3050,6 +3050,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pih/esm-example-app@workspace:packages/esm-example-app":
+  version: 0.0.0-use.local
+  resolution: "@pih/esm-example-app@workspace:packages/esm-example-app"
+  dependencies:
+    "@babel/runtime": "npm:^7.24.0"
+    "@openmrs/esm-framework": "npm:^5.4.0"
+    "@openmrs/esm-service-queues-app": "npm:^6.1.0"
+    i18next: "npm:^19.0.0"
+    moment: "npm:^2.30.1"
+    react: "npm:18.x"
+    react-dates: "npm:^21.8.0"
+    react-dom: "npm:18.x"
+    react-i18next: "npm:11.x"
+    rxjs: "npm:6.x"
+    single-spa: "npm:^6.x"
+    swr: "npm:^2.2.2"
+  peerDependencies:
+    "@openmrs/esm-framework": ^5.4.0
+    "@openmrs/esm-service-queues-app": ^6.1.0
+    i18next: ^19.0.0
+    react: 18.x
+    react-dom: 18.x
+    react-i18next: 11.x
+    rxjs: 6.x
+    single-spa: ^6.x
+    swr: ^2.2.2
+  languageName: unknown
+  linkType: soft
+
 "@pih/esm-legacy-app@workspace:packages/esm-legacy-app":
   version: 0.0.0-use.local
   resolution: "@pih/esm-legacy-app@workspace:packages/esm-legacy-app"
@@ -3068,7 +3097,6 @@ __metadata:
     swr: "npm:^2.2.2"
   peerDependencies:
     "@openmrs/esm-framework": ^5.4.0
-    "@openmrs/esm-service-queues-app": ^6.1.0
     i18next: ^19.0.0
     react: 18.x
     react-dom: 18.x

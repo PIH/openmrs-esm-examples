@@ -1,8 +1,8 @@
 {
-  "name": "@pih/esm-legacy-app",
+  "name": "@pih/esm-example-app",
   "version": "1.0.0",
-  "description": "An app for rendering legacy pages",
-  "browser": "dist/pih-esm-legacy-app.js",
+  "description": "An example app",
+  "browser": "dist/pih-esm-example-app.js",
   "main": "src/index.ts",
   "source": true,
   "license": "MPL-2.0",
@@ -43,6 +43,7 @@
   },
   "peerDependencies": {
     "@openmrs/esm-framework": "^5.4.0",
+    "@openmrs/esm-service-queues-app": "^6.1.0",
     "i18next": "^19.0.0",
     "react": "18.x",
     "react-dom": "18.x",

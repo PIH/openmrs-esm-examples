@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import styles from './root.css';
 import { appPath } from './constants';
-import Wrapper from './test/wrapper.component';
-import Dynamic from './test/shared.component';
+import Wrapper from './page-wrapper.component';
 
 export default function Root() {
   return (
@@ -15,7 +14,6 @@ export default function Root() {
             path="/active-visits"
             element={<Wrapper path={'/pihcore/reports/activeVisitsList.page?app=pih.app.activeVisits'} />}
           />
-          <Route path="/shared" element={<Dynamic />} />
         </Routes>
       </BrowserRouter>
     </div>

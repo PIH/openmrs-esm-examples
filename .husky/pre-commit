@@ -3,6 +3,4 @@
 
 set -e  # die on error
 
-yarn run extract-translations
-yarn prettier && npx lint-staged
-
+npx lint-staged

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './wrapper-component.scss';
+import styles from './page-wrapper-component.scss';
 
 interface WrapperProps {
   path: string;
